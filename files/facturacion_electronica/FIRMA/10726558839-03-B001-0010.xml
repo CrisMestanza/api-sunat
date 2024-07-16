@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><ext:UBLExtensions>
+                    <ext:UBLExtension>
+                        <ext:ExtensionContent><ds:Signature Id="FacturacionIntegralSign">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+  <ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>yNzWTZxhKtCvoIRSPtOK8ekZYyI=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>M20anke4NTXzbgb90C+Qdz/Y3TPjkNNw4QsLr5zEOSXB5CLxMKyykZDFwUNMyjgk4PE0Ms0Q9gLJDiExTrLeTFU0p1LgQEavdnIkiRtflxR82+j/oz0Ab1D9ja873YBXnYWrgsSeJzhyCrhisRfxgl584sWF0UweujtepfW7nWGdYHRxlA9eEAgapoIS2T4TyTmJWwr3dnXVe/p06peXxbuG1Vj6+hdefZyI2NjhzecbwqFpuPzImbz+qYc4YJEWkZOEXSN3MWBFAxb+OyTHmk2j9x5b693P8e6GjMJfdz24NzahaonvYlL/UEHQraLSaVPXA6x2TpW+yBHMsKJq2A==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFBzCCA++gAwIBAgIIB/I3kfUuu2swDQYJKoZIhvcNAQELBQAwggENMRswGQYKCZImiZPyLGQBGRYLTExBTUEuUEUgU0ExCzAJBgNVBAYTAlBFMQ0wCwYDVQQIDARMSU1BMQ0wCwYDVQQHDARMSU1BMRgwFgYDVQQKDA9UVSBFTVBSRVNBIFMuQS4xRTBDBgNVBAsMPEROSSA5OTk5OTk5IFJVQyAyMDYwNDA1MTk4NCAtIENFUlRJRklDQURPIFBBUkEgREVNT1NUUkFDScOTTjFEMEIGA1UEAww7Tk9NQlJFIFJFUFJFU0VOVEFOVEUgTEVHQUwgLSBDRVJUSUZJQ0FETyBQQVJBIERFTU9TVFJBQ0nDk04xHDAaBgkqhkiG9w0BCQEWDWRlbW9AbGxhbWEucGUwHhcNMjIwMTEwMDIyMjEwWhcNMjQwMTEwMDIyMjEwWjCCAQ0xGzAZBgoJkiaJk/IsZAEZFgtMTEFNQS5QRSBTQTELMAkGA1UEBhMCUEUxDTALBgNVBAgMBExJTUExDTALBgNVBAcMBExJTUExGDAWBgNVBAoMD1RVIEVNUFJFU0EgUy5BLjFFMEMGA1UECww8RE5JIDk5OTk5OTkgUlVDIDIwNjA0MDUxOTg0IC0gQ0VSVElGSUNBRE8gUEFSQSBERU1PU1RSQUNJw5NOMUQwQgYDVQQDDDtOT01CUkUgUkVQUkVTRU5UQU5URSBMRUdBTCAtIENFUlRJRklDQURPIFBBUkEgREVNT1NUUkFDScOTTjEcMBoGCSqGSIb3DQEJARYNZGVtb0BsbGFtYS5wZTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANjv60neq3TzTPaU+At6pqeKDeOEqnU7QDQGvWEaWf5Zj/6qqEj79VYbwKCFqpcAs7rxVMxDpedS+Y/ID2G0DrFUwOgEi4hgnEFQUGPQeT6SVXF1J6DVufkqC00SCJpuFYsd5OBdyqYMkugOd29YK0Qqp4FhwCPIR2XoZ+hSPkdfOMZg8oSF93h5GyOy+oIZ0NRLzNEXHSUnLNaYg0MdZ/R4Imkh/G3hPB5UnThiAtcyiZsjWZ/HQJOCYj+HLWwaPdo6G19auK56IE4/nm6VqvSAmKU+fyUMI2cagBN+XhwAJb7tZUNeVLZ5IZbHakH6Veg5z1QNVuJko5lSaA7IRp0CAwEAAaNnMGUwHQYDVR0OBBYEFPyTQn0GQR2JboLZ4Ue22I/8Exj0MB8GA1UdIwQYMBaAFPyTQn0GQR2JboLZ4Ue22I/8Exj0MBMGA1UdJQQMMAoGCCsGAQUFBwMBMA4GA1UdDwEB/wQEAwIHgDANBgkqhkiG9w0BAQsFAAOCAQEAzk8x3uZwxMpH2zN/nW6Mvth9+W+xWUgTA4rNpmjfZFUd3js0p72iadYNceMWCwjf1V9EgNBBXDuXuD3sSbXrCoCRS+UWY6T19MG1CUOaN3x8N6i/VWwc48Ep1kYxp2ORqp+Iw5xxkxqIxX+3Ir84yxJvYXX0pi0PlCv29rzKscToAPeXjWR85sAw9AZ7wDxVl3DfDFJuNX7gQgOVsMZuya/0CmvRukovzYxHgND7VoXWz4ptNyVpwht4ZEDvsdFKoTKdwaV+3UcA2GjHNZTGmxKYX52J30PGKgJg+PWmn10oN19FhhFrJnZZ2amcuK/WEwJJEtgso1WIbmk3oljHQw==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+                    </ext:UBLExtension>
+                </ext:UBLExtensions>
+                <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+                <cbc:CustomizationID>2.0</cbc:CustomizationID>
+                <cbc:ID>B001-0010</cbc:ID>
+                <cbc:IssueDate>2024-07-06</cbc:IssueDate>
+                <cbc:IssueTime>18:43:32</cbc:IssueTime><cbc:InvoiceTypeCode listID="0101" listAgencyName="PE:SUNAT" listName="Tipo de Documento" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo01" name="Tipo de Operacion" listSchemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo51">03</cbc:InvoiceTypeCode><cbc:Note languageLocaleID="1000">Cincuenta y cuatro con 10/100 soles</cbc:Note>
+            <cbc:DocumentCurrencyCode listID="ISO 4217 Alpha" listName="Currency" listAgencyName="United Nations Economic Commission for Europe">PEN</cbc:DocumentCurrencyCode><cac:Signature>
+            <cbc:ID>10726558839</cbc:ID>
+            <cac:SignatoryParty>
+                <cac:PartyIdentification>
+                    <cbc:ID>10726558839</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                    <cbc:Name><![CDATA[Cristian Mestanza Ortiz Razón social2]]></cbc:Name>
+                </cac:PartyName>
+            </cac:SignatoryParty>
+            <cac:DigitalSignatureAttachment>
+                <cac:ExternalReference>
+                    <cbc:URI>10726558839</cbc:URI>
+                </cac:ExternalReference>
+            </cac:DigitalSignatureAttachment>
+        </cac:Signature>                        
+        <cac:AccountingSupplierParty>
+            <cac:Party>
+                <cac:PartyIdentification>
+                    <cbc:ID schemeID="6">10726558839</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                    <cbc:Name><![CDATA[Cristian Mestanza Ortiz Nombre comercia1]]></cbc:Name>
+                </cac:PartyName>
+                <cac:PartyLegalEntity>
+                    <cbc:RegistrationName><![CDATA[Cristian Mestanza Ortiz Razón social2]]></cbc:RegistrationName>
+                    <cac:RegistrationAddress>
+                        <cbc:ID schemeName="Ubigeos" schemeAgencyName="PE:INEI">220603</cbc:ID>
+                        <cbc:AddressTypeCode listAgencyName="PE:SUNAT" listName="Establecimientos anexos">0000</cbc:AddressTypeCode>
+                        <cbc:CityName>Mariscal Caceres</cbc:CityName>
+                        <cbc:CountrySubentity>San Martin</cbc:CountrySubentity>
+                        <cbc:District>Huicungo</cbc:District>
+                        <cac:AddressLine>
+                            <cbc:Line>Jr. Francisco Pizarro 950s</cbc:Line>
+                        </cac:AddressLine>
+                        <cac:Country>
+                            <cbc:IdentificationCode listID="ISO 3166-1" listAgencyName="United Nations Economic Commission for Europe" listName="Country">PE</cbc:IdentificationCode>
+                        </cac:Country>
+                    </cac:RegistrationAddress>
+                </cac:PartyLegalEntity>
+            </cac:Party>
+        </cac:AccountingSupplierParty>
+        <cac:AccountingCustomerParty>
+            <cac:Party>
+                <cac:PartyIdentification>
+                    <cbc:ID schemeID="1" schemeName="Documento de Identidad" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">72655883</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyLegalEntity>
+                    <cbc:RegistrationName><![CDATA[CRISTIAN MESTANZA ORTIZ]]></cbc:RegistrationName>
+                </cac:PartyLegalEntity>
+            </cac:Party>
+        </cac:AccountingCustomerParty><cac:PaymentTerms>
+                            <cbc:ID>FormaPago</cbc:ID>
+                            <cbc:PaymentMeansID>Contado</cbc:PaymentMeansID>
+                        </cac:PaymentTerms><cac:TaxTotal>
+                <cbc:TaxAmount currencyID="PEN">0</cbc:TaxAmount><cac:TaxSubtotal>
+                    <cbc:TaxableAmount currencyID="PEN">54.1</cbc:TaxableAmount>
+                    <cbc:TaxAmount currencyID="PEN">0.00</cbc:TaxAmount>
+                    <cac:TaxCategory>
+                        <cac:TaxScheme>
+                            <cbc:ID schemeName="Codigo de tributos" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo05">9997</cbc:ID>
+                            <cbc:Name>EXO</cbc:Name>
+                            <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                        </cac:TaxScheme>
+                    </cac:TaxCategory>
+                </cac:TaxSubtotal></cac:TaxTotal><cac:LegalMonetaryTotal>                                
+                <cbc:LineExtensionAmount currencyID="PEN">54.10</cbc:LineExtensionAmount>
+                <cbc:TaxInclusiveAmount currencyID="PEN">54.10</cbc:TaxInclusiveAmount>
+                <cbc:AllowanceTotalAmount currencyID="PEN">0.00</cbc:AllowanceTotalAmount>
+                <cbc:ChargeTotalAmount currencyID="PEN">0.00</cbc:ChargeTotalAmount>
+                <cbc:PrepaidAmount currencyID="PEN">0.00</cbc:PrepaidAmount>
+                <cbc:PayableAmount currencyID="PEN">54.10</cbc:PayableAmount>
+            </cac:LegalMonetaryTotal></Invoice>
