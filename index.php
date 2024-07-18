@@ -307,7 +307,8 @@ function ws_sunat($empresa, $nombre_archivo){
         );
         echo json_encode($jsondata, JSON_UNESCAPED_UNICODE);
     }
-    
+
+#Pdf Creaaaaaaaaaaaaaaaaaaaaaaaaar
 function crear_pdf($empresa, $cliente, $venta, $detalle, $nombre){
   
     $num = new Numletras();    
@@ -417,7 +418,7 @@ function crear_pdf($empresa, $cliente, $venta, $detalle, $nombre){
     $pdf->Image($rutaqr, 21, 170, 40, 40);            
     
     $pdf->Output('files/facturacion_electronica/PDF/'. $nombre .'.pdf', 'F');    
-}
+}   
 
 function GetImgQr($venta, $empresa, $tipo_documento, $cliente)  {
     $textoQR = '';
@@ -448,3 +449,5 @@ function getFirma($NomArch){
     }
     return $response;
 }
+
+

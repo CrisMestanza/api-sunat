@@ -220,8 +220,8 @@ function leerCDR_XML($NomArch, $ruta, $ruta_cdr){
             
             'ruta_xml'  => $ruta_general.'FIRMA/'.$NomArch.'.xml',
             'ruta_cdr'  => $ruta_general.'CDR/R-' .$NomArch.'.xml',
+            'ruta_ticket'  => $ruta_general.'PDF_TICKET/'.$NomArch.'.pdf',
             'ruta_pdf'  => $ruta_general.'PDF/'.$NomArch.'.pdf',
-            
             'codigo_hash'   =>  $codigo_hash,
             'xml_base_64'   =>  $xml_base_64,
             'cdr_base_64'   =>  $cdr_base_64
